@@ -1,65 +1,96 @@
-# Chris Gibson's project portfolio
+# 02 Advanced CSS: Portfolio
 
-## Description
+## Your Task
 
----
+Welcome to this week's challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
-Chris Gibson's project portfolio is a the main webpage for Chris Gibson's portfolio, bio and contact info. ([Link to project found here]()). This webpage was made in order so that potential enployers can review samples of my work in order to determine if I will be a good candidate for them. It also serves as a directory to my linkedin,spotify, email info, phone info and Github reporsitories so that employers can connect with me and review all my repositories.
+A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
 
-- built up HTML and CSS from scratch
-- added recent photo along with bio
-- added links to my github, linkedin and spotify profiles
-- included responsive layout that adapts to viewport
+With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-Example of refactored code with added semmantic elements and comments:
+**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
-```
-<!--added more descriptive title-->
-    <title>Horiseon Marketing Agency</title>
-  </head>
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first challenge, we follow the AS AN / I WANT / SO THAT format. 
 
-  <body>
-    <!--modified Div to be header tag because header is a semantic element-->
-    <header>
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <!--modified Div to be nav tag because the below link needs to be on a navigation bar-->
-      <nav>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
+
+## User Story
 
 ```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-## Usage
 
----
+## Acceptance Criteria
 
-The webpage has a navigation bar on the top right side which the user can select one of the options they would like to learn more about.
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
-![navigation bar](assets/images/Navigation-bar.png)
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
-Selecting one of the four options will direct the user to a section that will provide some more information about the option they slected.
 
-![main contents of webpage](assets/images/Main-contents.png)
+## Mock-Up
 
-## Credits
+The following animation shows the web application's appearance and functionality:
 
----
+![portfolio demo](./Assets/02-advanced-css-challenge-demo.gif)
 
-[UCB bootcamp Gitlab README.md used as reference for this README.md](https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-FT-09-2022-U-LOLC/-/tree/main/course-content/01-html-git-css/challenge/Good-README-Guide)
 
-[Adam Pritchard's markdown cheatsheet used as reference](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
+## Grading Requirements
 
-[W3 schools was used extensively for both HTML and CSS reference guides](https://www.w3schools.com/)
+This challenge is graded based on the following criteria: 
 
-[Flexbox froggy referenced extensively](https://flexboxfroggy.com/)
+### Technical Acceptance Criteria: 40%
 
-[CSS-Tricks referenced extensively](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* Satisfies all of the above acceptance criteria.
 
-## License
+### Deployment: 32%
 
----
+* Application deployed at live URL.
 
-This webpage is licensed under the MIT license.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository contains application code.
+
+### Application Quality: 15%
+
+* Application resembles the mock-up functionality provided in the challenge instructions.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality readme with description, screenshot, link to deployed application.
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* The URL of the deployed application.
+
+* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+- - -
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

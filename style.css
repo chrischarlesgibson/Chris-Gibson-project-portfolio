@@ -43,7 +43,18 @@ header h1 {
   list-style-type: none;
 }
 
-main {
+.topnavlinks a {
+  color: rgb(1, 252, 252);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.borderleft {
+  border-left: 10px solid gray;
+  margin-left: 300px;
+}
+.row1,
+.row2 {
   display: flex;
   flex-wrap: wrap;
 }
@@ -123,6 +134,25 @@ main {
   border-style: solid;
 }
 
+/* .smallerprojects {
+  flex-basis: auto;
+  margin: 10px;
+  width: 40%;
+  height: 25%;
+  border-style: solid;
+  border-color: rgb(1, 252, 252);
+  border-width: thick;
+  justify-content: flex-end;
+}
+#mainproject > img {
+  flex-basis: auto;
+  width: 90%;
+  height: 30%; */
+
+h4 {
+  background-color: rgb(1, 252, 252);
+  width: 20%;
+}
 .smallerproject1:hover,
 .smallerproject2:hover,
 .smallerproject3:hover,
