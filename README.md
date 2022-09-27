@@ -4,30 +4,12 @@
 
 ---
 
-Chris Gibson's project portfolio is a the main webpage for Chris Gibson's portfolio, bio and contact info. ([Link to project found here]()). This webpage was made in order so that potential enployers can review samples of my work in order to determine if I will be a good candidate for them. It also serves as a directory to my linkedin,spotify, email info, phone info and Github reporsitories so that employers can connect with me and review all my repositories.
+Chris Gibson's project portfolio is a the main webpage for Chris Gibson's portfolio, bio and contact info. ([Link to project found here](https://chrischarlesgibson.github.io/Chris-Gibson-project-portfolio/)). This webpage was made in order so that potential enployers can review samples of my work in order to determine if I will be a good candidate for them. It also serves as a directory to my linkedin,spotify, email info, phone info and Github reporsitories so that employers can connect with me and review all my repositories.
 
 - built up HTML and CSS from scratch
 - added recent photo along with bio
 - added links to my github, linkedin and spotify profiles
 - included responsive layout that adapts to viewport
-
-Example of refactored code with added semmantic elements and comments:
-
-```
-<!--added more descriptive title-->
-    <title>Horiseon Marketing Agency</title>
-  </head>
-
-  <body>
-    <!--modified Div to be header tag because header is a semantic element-->
-    <header>
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <!--modified Div to be nav tag because the below link needs to be on a navigation bar-->
-      <nav>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
 
 ```
 
@@ -37,11 +19,11 @@ Example of refactored code with added semmantic elements and comments:
 
 The webpage has a navigation bar on the top right side which the user can select one of the options they would like to learn more about.
 
-![navigation bar](assets/images/Navigation-bar.png)
+![navigation bar](./images/navigation-bar.jpeg.png)
 
 Selecting one of the four options will direct the user to a section that will provide some more information about the option they slected.
 
-![main contents of webpage](assets/images/Main-contents.png)
+![main contents of webpage](./images/main-contents.jpeg.png)
 
 ## Credits
 
@@ -63,3 +45,4 @@ Selecting one of the four options will direct the user to a section that will pr
 
 This webpage is licensed under the MIT license.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```
