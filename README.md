@@ -11,8 +11,6 @@ Chris Gibson's project portfolio is a the main webpage for Chris Gibson's portfo
 - added links to my github, linkedin and spotify profiles
 - included responsive layout that adapts to viewport
 
-```
-
 ## Usage
 
 ---
@@ -45,4 +43,3 @@ Selecting one of the four options will direct the user to a section that will pr
 
 This webpage is licensed under the MIT license.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-```
