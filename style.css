@@ -16,6 +16,11 @@ header {
   padding: 1%;
 }
 
+#header {
+  color: black;
+  background-color: rgb(1, 252, 252);
+  border-radius: 5px;
+}
 .hero {
   height: 200px;
   width: 100%;
@@ -24,7 +29,7 @@ header {
   background-size: cover;
   background-position: center;
 }
-header h1 {
+figure h1 {
   background-color: rgb(1, 252, 252);
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -34,6 +39,16 @@ header h1 {
   border-radius: 5px;
 }
 .topnavlinks {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: rgb(1, 252, 252);
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style-type: none;
+}
+
+.bottomnavlinks {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   color: rgb(1, 252, 252);
@@ -56,103 +71,89 @@ header h1 {
 .row1,
 .row2 {
   display: flex;
+  justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  margin-left: 500px;
+  width: 60%;
 }
 
-.bottomnavlinks {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  color: rgb(1, 252, 252);
+.toprow {
   display: flex;
-  justify-content: space-between;
-  min-width: 300px;
-  list-style-type: none;
-}
-
-.topnavlinks a {
-  color: rgb(1, 252, 252);
-  font-weight: bold;
+  width: 60%;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 500px;
 }
 
 .smallerproject1 {
+  flex-basis: auto;
+  margin: 10px;
+  width: 34%;
+  height: 150px;
   background-size: cover;
   background-image: url(./images/green\ forest.jpg);
   border-style: solid;
   border-color: rgb(1, 252, 252);
   border-width: 5px;
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
+  justify-content: center;
 }
 .smallerproject2 {
+  flex-basis: auto;
+  margin: 10px;
+  width: 34%;
+  height: 150px;
   background-size: cover;
   background-image: url(./images/snowy\ forest.jpg);
   border-style: solid;
   border-color: rgb(1, 252, 252);
   border-width: 5px;
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
+  justify-content: center;
 }
 
 .smallerproject3 {
+  flex-basis: auto;
+  margin: 10px;
+  width: 34%;
+  height: 150px;
   background-size: cover;
   background-image: url(./images/snowy\ igloo.jpg);
   border-style: solid;
   border-color: rgb(1, 252, 252);
   border-width: 5px;
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
+  justify-content: center;
 }
 
 .smallerproject4 {
+  flex-basis: auto;
+  margin: 10px;
+  width: 34%;
+  height: 150px;
   background-size: cover;
   background-image: url(./images/sunny\ beach.jpg);
   border-style: solid;
   border-color: rgb(1, 252, 252);
   border-width: 5px;
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
+  justify-content: center;
 }
 
 .mainProject {
   flex-basis: auto;
+  margin: 10px;
+  width: 70%;
+  height: 250px;
   background-size: cover;
   background-image: url(./images/computer\ marketing.jpg);
   border-style: solid;
   border-color: rgb(1, 252, 252);
   border-width: 5px;
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-}
-
-/* .smallerprojects {
-  flex-basis: auto;
-  margin: 10px;
-  width: 40%;
-  height: 25%;
-  border-style: solid;
-  border-color: rgb(1, 252, 252);
-  border-width: thick;
   justify-content: flex-end;
 }
-#mainproject > img {
-  flex-basis: auto;
-  width: 90%;
-  height: 30%; */
 
-h4 {
-  background-color: rgb(1, 252, 252);
-  width: 20%;
-}
 .smallerproject1:hover,
 .smallerproject2:hover,
 .smallerproject3:hover,
@@ -160,4 +161,13 @@ h4 {
 .mainProject:hover {
   box-shadow: 0 0 15px rgb(111, 111, 111);
   filter: grayscale(50%);
+}
+
+.mainProject h2,
+h4,
+.row1 h2,
+h4,
+.row2 h2,
+h4 {
+  background-color: rgb(1, 252, 252);
 }
